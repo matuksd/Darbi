@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Examenations">
+    <Key>
+      <PropertyRef Name="ID_Student" />
+    </Key>
+    <Property Name="ID_Student" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ref_Stud" Type="int" />
+    <Property Name="Ref_Subj" Type="int" />
+    <Property Name="Mark" Type="int" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID_Stud" />
+    </Key>
+    <Property Name="ID_Stud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Student" Type="nchar" MaxLength="12" />
+    <Property Name="St_Card" Type="nchar" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="ID_Subj" />
+    </Key>
+    <Property Name="ID_Subj" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Subject" Type="nchar" MaxLength="10" />
+    <Property Name="Teacher" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="Ref_Stud">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Examenations" Type="Self.Examenations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID_Stud" />
+      </Principal>
+      <Dependent Role="Examenations">
+        <PropertyRef Name="Ref_Stud" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Ref_Subj">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Examenations" Type="Self.Examenations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="ID_Subj" />
+      </Principal>
+      <Dependent Role="Examenations">
+        <PropertyRef Name="Ref_Subj" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ExamModelStoreContainer">
+    <EntitySet Name="Examenations" EntityType="Self.Examenations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="Ref_Stud" Association="Self.Ref_Stud">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Examenations" EntitySet="Examenations" />
+    </AssociationSet>
+    <AssociationSet Name="Ref_Subj" Association="Self.Ref_Subj">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Examenations" EntitySet="Examenations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

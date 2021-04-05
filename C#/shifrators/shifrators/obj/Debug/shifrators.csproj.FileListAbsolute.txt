@@ -1,0 +1,7 @@
+C:\Users\dell\source\repos\shifrators\shifrators\bin\Debug\shifrators.exe.config
+C:\Users\dell\source\repos\shifrators\shifrators\bin\Debug\shifrators.exe
+C:\Users\dell\source\repos\shifrators\shifrators\bin\Debug\shifrators.pdb
+C:\Users\dell\source\repos\shifrators\shifrators\obj\Debug\shifrators.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\shifrators\shifrators\obj\Debug\shifrators.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\shifrators\shifrators\obj\Debug\shifrators.exe
+C:\Users\dell\source\repos\shifrators\shifrators\obj\Debug\shifrators.pdb

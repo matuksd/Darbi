@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51294/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51294/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51294/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_FindByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindByName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FindByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Vardi_InputMessage">
+    <wsdl:part name="parameters" element="tns:Vardi" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Vardi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VardiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Vardusk_InputMessage">
+    <wsdl:part name="parameters" element="tns:Vardusk" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Vardusk_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VarduskResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyName_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyRun100m_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyRun100m" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyRun100m_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyRun100mResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyLeksana_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyLeksana" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyLeksana_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyLeksanaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyHeight_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyHeight" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyHeight_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyHeightResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyNameBR_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyNameBR" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyNameBR_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyNameBRResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyRun100mBR_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyRun100mBR" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyRun100mBR_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyRun100mBRResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyLeksanaBR_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyLeksanaBR" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyLeksanaBR_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyLeksanaBRResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyHeightBR_InputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyHeightBR" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SortedbyHeightBR_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SortedbyHeightBRResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="FindByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/FindByName" message="tns:IService1_FindByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/FindByNameResponse" message="tns:IService1_FindByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Vardi">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Vardi" message="tns:IService1_Vardi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/VardiResponse" message="tns:IService1_Vardi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Vardusk">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Vardusk" message="tns:IService1_Vardusk_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/VarduskResponse" message="tns:IService1_Vardusk_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyName" message="tns:IService1_SortedbyName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyNameResponse" message="tns:IService1_SortedbyName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyRun100m">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyRun100m" message="tns:IService1_SortedbyRun100m_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyRun100mResponse" message="tns:IService1_SortedbyRun100m_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyLeksana">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyLeksana" message="tns:IService1_SortedbyLeksana_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyLeksanaResponse" message="tns:IService1_SortedbyLeksana_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyHeight">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyHeight" message="tns:IService1_SortedbyHeight_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyHeightResponse" message="tns:IService1_SortedbyHeight_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyNameBR">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyNameBR" message="tns:IService1_SortedbyNameBR_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyNameBRResponse" message="tns:IService1_SortedbyNameBR_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyRun100mBR">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyRun100mBR" message="tns:IService1_SortedbyRun100mBR_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyRun100mBRResponse" message="tns:IService1_SortedbyRun100mBR_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyLeksanaBR">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyLeksanaBR" message="tns:IService1_SortedbyLeksanaBR_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyLeksanaBRResponse" message="tns:IService1_SortedbyLeksanaBR_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyHeightBR">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SortedbyHeightBR" message="tns:IService1_SortedbyHeightBR_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SortedbyHeightBRResponse" message="tns:IService1_SortedbyHeightBR_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindByName">
+      <soap:operation soapAction="http://tempuri.org/IService1/FindByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vardi">
+      <soap:operation soapAction="http://tempuri.org/IService1/Vardi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vardusk">
+      <soap:operation soapAction="http://tempuri.org/IService1/Vardusk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyName">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyRun100m">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyRun100m" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyLeksana">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyLeksana" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyHeight">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyHeight" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyNameBR">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyNameBR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyRun100mBR">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyRun100mBR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyLeksanaBR">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyLeksanaBR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortedbyHeightBR">
+      <soap:operation soapAction="http://tempuri.org/IService1/SortedbyHeightBR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:51294/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

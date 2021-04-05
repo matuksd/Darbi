@@ -1,0 +1,17 @@
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\Exam.mdf
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\Exam_log.ldf
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\LINQ-KD2.exe.config
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\LINQ-KD2.exe
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\LINQ-KD2.pdb
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\EntityFramework.dll
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\EntityFramework.xml
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ_KD2.Form1.resources
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ_KD2.Properties.Resources.resources
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.csproj.CopyComplete
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.exe
+C:\Users\dell\source\repos\LINQ-KD2\LINQ-KD2\obj\Debug\LINQ-KD2.pdb

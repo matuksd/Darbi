@@ -1,0 +1,7 @@
+C:\Users\dell\source\repos\arhivators\arhivators\bin\Debug\arhivators.exe.config
+C:\Users\dell\source\repos\arhivators\arhivators\bin\Debug\arhivators.exe
+C:\Users\dell\source\repos\arhivators\arhivators\bin\Debug\arhivators.pdb
+C:\Users\dell\source\repos\arhivators\arhivators\obj\Debug\arhivators.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\arhivators\arhivators\obj\Debug\arhivators.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\arhivators\arhivators\obj\Debug\arhivators.exe
+C:\Users\dell\source\repos\arhivators\arhivators\obj\Debug\arhivators.pdb

@@ -1,0 +1,13 @@
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\bin\Debug\Server.exe.config
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\bin\Debug\Server.exe
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\bin\Debug\Server.pdb
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\obj\Debug\Server.exe
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\obj\Debug\Server.pdb
+C:\Users\dell\Desktop\Majas_darbs\Serveris\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\bin\Debug\Server.exe.config
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\bin\Debug\Server.exe
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\bin\Debug\Server.pdb
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\obj\Debug\Server.exe
+C:\Users\dell\Desktop\Majas_darbs\MD\Server\obj\Debug\Server.pdb

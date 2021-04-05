@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exams>
+  <exam>
+    <Student>ALiepa</Student>
+    <Subject>C++</Subject>
+    <Mark>7</Mark>
+  </exam>
+  <exam>
+    <Student>ALiepa</Student>
+    <Subject>C#</Subject>
+    <Mark>8</Mark>
+  </exam>
+  <exam>
+    <Student>ALiepa</Student>
+    <Subject>Java</Subject>
+    <Mark>9</Mark>
+  </exam>
+  <exam>
+    <Student>BOzols</Student>
+    <Subject>C++</Subject>
+    <Mark>5</Mark>
+  </exam>
+  <exam>
+    <Student>BOzols</Student>
+    <Subject>C#</Subject>
+    <Mark>8</Mark>
+  </exam>
+  <exam>
+    <Student>CBalbesenko</Student>
+    <Subject>Java</Subject>
+    <Mark>4</Mark>
+  </exam>
+</Exams>

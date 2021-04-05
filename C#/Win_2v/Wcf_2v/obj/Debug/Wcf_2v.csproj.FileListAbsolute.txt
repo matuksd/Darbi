@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\bin\Wcf_2v.dll.config
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\bin\Wcf_2v.dll
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\bin\Wcf_2v.pdb
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\obj\Debug\Wcf_2v.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\obj\Debug\Wcf_2v.dll
+C:\Users\dell\source\repos\Win_2v\Wcf_2v\obj\Debug\Wcf_2v.pdb

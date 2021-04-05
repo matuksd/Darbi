@@ -1,0 +1,9 @@
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\bin\Debug\Kd_WCG_2v.exe.config
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\bin\Debug\Kd_WCG_2v.exe
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\bin\Debug\Kd_WCG_2v.pdb
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.Form1.resources
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.Properties.Resources.resources
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.exe
+C:\Users\dell\source\repos\Win_2v\Kd_WCG_2v\obj\Debug\Kd_WCG_2v.pdb

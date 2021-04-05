@@ -1,0 +1,9 @@
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\bin\Debug\Client2.exe.config
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\bin\Debug\Client2.exe
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\bin\Debug\Client2.pdb
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.Form1.resources
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.Properties.Resources.resources
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.exe
+C:\Users\dell\Desktop\Majas_darbs\MD\Client2\obj\Debug\Client2.pdb
