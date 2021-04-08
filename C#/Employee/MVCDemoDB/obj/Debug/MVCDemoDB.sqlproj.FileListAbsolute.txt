@@ -1,0 +1,9 @@
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\bin\Debug\MVCDemoDB.dacpac
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\bin\Debug\MVCDemoDB.dll
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\bin\Debug\MVCDemoDB.pdb
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\Model.xml
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\refactor.xml
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\postdeploy.sql
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\predeploy.sql
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\MVCDemoDB.dll
+C:\Users\dell\source\repos\WebApplication7\MVCDemoDB\obj\Debug\MVCDemoDB.pdb

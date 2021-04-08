@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\dell\source\repos\WebApplication7\DataLibrary\obj\Debug\DataLibrary.pdb
